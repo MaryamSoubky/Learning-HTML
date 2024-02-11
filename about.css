@@ -1,0 +1,43 @@
+html{
+    font-size: 22px
+}
+
+.text{
+
+    text-align: center;
+}
+
+a{
+    color: hotpink;
+}
+
+a:visited {
+    color: palevioletred;
+}
+
+a:hover, a:active {
+    color: lightpink;
+}
+
+body{ 
+    
+    background-color: #6243a1;
+    color: rgb(231, 168, 228);
+}
+
+hr{
+    border: none;
+    border-top: 3px double rgb(243, 154, 239);
+    color: rgb(231, 168, 228);
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr::after {
+    background: #6243a1;
+    content: '˚ʚ♡ɞ˚';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+  }
